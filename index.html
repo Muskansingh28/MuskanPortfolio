@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muskan Singh Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(4, 4, 57);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(20, 20, 95);
+            padding: 0 20px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: rgb(203, 195, 207);
+            font-size: 1.02rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+            flex-wrap: wrap;
+        }
+
+        .firstsection>div {
+            width: 30%;
+            min-width: 250px;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+        }
+
+        .rightsection img {
+            width: 80%;
+            max-width: 400px;
+        }
+
+        .purple {
+            color: rgb(160, 104, 212);
+        }
+
+        #element {
+            color: rgb(160, 104, 212);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            text-align: center;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+            margin: 20px 0;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondsection .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            position: relative;
+        }
+
+        .image-top {
+            width: 23px;
+            position: absolute;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: rgb(160, 104, 212);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .contact-form button:hover {
+            background-color: rgb(203, 195, 207);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgb(20, 20, 95);
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Muskan Singh Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Service</a></li>
+                    <li><a href="/">Project</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Muskan Singh</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png.webp" alt="Background Image">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <div class="vertical-title">HTML Developer</div>
+                </div>
+                <div class="vertical"></div>
+                <div class="vertical">
+                    <div class="vertical-title">CSS Developer</div>
+                </div>
+                <div class="vertical"></div>
+                <div class="vertical">
+                    <div class="vertical-title">JavaScript Developer</div>
+                </div>
+                <div class="vertical"></div>
+                <div class="vertical">
+                    <div class="vertical-title">React Developer</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h1>Contact Me</h1>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Muskan Singh. All rights reserved.</p>
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">Email</a>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
